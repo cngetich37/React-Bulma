@@ -17,10 +17,10 @@ function SignUp() {
               </div>
               <div class="is-flex is-justify-content-center">
                 <div class="title is-link is-size-3 is-italic has-text-link-dark is-family-monospace">
-                  Collins Nixon Tech
+                  React Bulma
                   <br />
                   <div class="subtitle is-link is-size-5 is-italic has-text-link-dark is-family-monospace">
-                    Think & Create It
+                    React with Bulma
                   </div>
                 </div>
               </div>
