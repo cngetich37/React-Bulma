@@ -1,4 +1,4 @@
 # React + Bulma
 
-Using Bulma in React Templates
+Using Bulma in React Components
 
