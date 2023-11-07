@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import signupimg from '../images/cnixontech.png'
 function SignUp() {
   return (
     <>
@@ -24,7 +25,7 @@ function SignUp() {
             </div>
             <div class="hero-body">
               <Link class="image" to="/">
-                <img src="./images/cnixontech.png" alt="" />
+                <img src={signupimg} alt="" />
               </Link>
             </div>
           </section>
