@@ -72,7 +72,6 @@ function Home() {
                   class="block button is-rounded is-responsive is-fullwidth is-outlined"
                   to="/signup"
                 >
-                  {/* <span class="icon-text image is-24x24"><img src="./src/assets/emailsignin.png" alt="" /></span><span> Sign up with Email</span> */}
                   <span class="icon-text">
                     <span class="icon">
                       <img src="./src/assets/emailsignin.png" />
