@@ -27,7 +27,7 @@ function SignIn() {
             </div>
             <div class="hero-body">
               <Link class="image" to="/">
-                <img src="./src/assets/signin.png" alt="" />
+                <img src="./images/signin.png" alt="" />
               </Link>
             </div>
           </section>

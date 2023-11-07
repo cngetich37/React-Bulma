@@ -57,13 +57,13 @@ function Home() {
               <div class="box is-flex is-flex-direction-column is-align-items-center">
                 <button class="block button is-rounded is-responsive is-fullwidth is-danger is-outlined mb-3">
                   <span class="image is-24x24">
-                    <img src="./src/assets/googlesignin.png" alt="" />
+                    <img src="./images/googlesignin.png" alt="" />
                   </span>
                   <span> Sign up with Google</span>
                 </button>
                 <button class="block button block is-rounded is-responsive is-fullwidth is-info is-outlined mb-3">
                   <span class="image is-24x24 icon-text ">
-                    <img src="./src/assets/microsoftsignin.png" alt="" />
+                    <img src="./images/microsoftsignin.png" alt="" />
                   </span>
                   <span> Sign up with Microsoft</span>
                 </button>
@@ -74,7 +74,7 @@ function Home() {
                 >
                   <span class="icon-text">
                     <span class="icon">
-                      <img src="./src/assets/emailsignin.png" />
+                      <img src="./images/emailsignin.png" />
                     </span>
                     <span>Sign up with Email</span>
                   </span>

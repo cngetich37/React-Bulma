@@ -27,7 +27,7 @@ function RecoverPassword() {
             </div>
             <div class="hero-body">
               <Link class="image" to="/">
-                <img src="./src/assets/cnixontech.png" alt="" />
+                <img src="./images/cnixontech.png" alt="" />
               </Link>
             </div>
           </section>
