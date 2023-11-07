@@ -19,9 +19,6 @@ function RecoverPassword() {
                 <div class="title is-link is-size-3 is-italic has-text-link-dark is-family-monospace">
                   React Bulma
                   <br />
-                  {/* <div class="subtitle is-link is-size-5 is-italic has-text-link-dark is-family-monospace">
-                    React with Bulma
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -66,25 +63,6 @@ function RecoverPassword() {
                     />
                   </div>
                 </div>
-                {/* <div class="field">
-                                    <label class="label has-text-link-dark is-italic">Email</label>
-                                    <div class="control">
-                                        <input class="input" type="email" placeholder="e.g. collo@example.com"/>
-                                    </div>
-                                </div> */}
-
-                {/* <div class="field">
-                                    <label class="label has-text-link-dark is-italic">Password</label>
-                                    <div class="control">
-                                        <input class="input" type="password" placeholder="********"/>
-                                    </div>
-                                </div> */}
-                {/* <div class="field">
-                                    <label class="label has-text-link-dark is-italic">Repeat Password</label>
-                                    <div class="control">
-                                        <input class="input" type="password" placeholder="********"/>
-                                    </div>
-                                </div> */}
 
                 <button class="button is-link is-rounded">
                   Reset Password
