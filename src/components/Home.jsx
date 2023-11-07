@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import SignIn from "./SignIn";
+import googlesignin from "../images/googlesignin.png";
+import microsoftsignin from "../images/microsoftsignin.png";
+import emailsignin from "../images/emailsignin.png";
+import homepageimg from "../images/cnixontech.png";
 function Home() {
   return (
     <>
@@ -20,15 +24,12 @@ function Home() {
                 <div class="title is-link is-size-3 is-italic has-text-link-dark is-family-monospace">
                   React Bulma
                   <br />
-                  {/* <div class="subtitle is-link is-size-5 is-italic has-text-link-dark is-family-monospace">
-                    React with Bulma
-                  </div> */}
                 </div>
               </div>
             </div>
             <div class="hero-body">
               <Link class="image" to="/">
-                <img src="./images/cnixontech.png" alt="" />
+                <img src={homepageimg} alt="" />
               </Link>
             </div>
           </section>
@@ -57,24 +58,23 @@ function Home() {
               <div class="box is-flex is-flex-direction-column is-align-items-center">
                 <button class="block button is-rounded is-responsive is-fullwidth is-danger is-outlined mb-3">
                   <span class="image is-24x24">
-                    <img src="./images/googlesignin.png" alt="" />
+                    <img src={googlesignin} alt="" />
                   </span>
                   <span> Sign up with Google</span>
                 </button>
                 <button class="block button block is-rounded is-responsive is-fullwidth is-info is-outlined mb-3">
                   <span class="image is-24x24 icon-text ">
-                    <img src="./images/microsoftsignin.png" alt="" />
+                    <img src={microsoftsignin} alt="" />
                   </span>
                   <span> Sign up with Microsoft</span>
                 </button>
-                {/* <text class="text is-size-6">OR</text> */}
                 <Link
                   class="block button is-rounded is-responsive is-fullwidth is-outlined"
                   to="/signup"
                 >
                   <span class="icon-text">
                     <span class="icon">
-                      <img src="./images/emailsignin.png" />
+                      <img src={emailsignin} />
                     </span>
                     <span>Sign up with Email</span>
                   </span>

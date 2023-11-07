@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import recoverpasswordimg from "../images/cnixontech.png"
 function RecoverPassword() {
   return (
     <>
@@ -24,7 +25,7 @@ function RecoverPassword() {
             </div>
             <div class="hero-body">
               <Link class="image" to="/">
-                <img src="./images/cnixontech.png" alt="" />
+                <img src={recoverpasswordimg} alt="" />
               </Link>
             </div>
           </section>
