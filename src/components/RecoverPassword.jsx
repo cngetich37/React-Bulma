@@ -19,9 +19,9 @@ function RecoverPassword() {
                 <div class="title is-link is-size-3 is-italic has-text-link-dark is-family-monospace">
                   React Bulma
                   <br />
-                  <div class="subtitle is-link is-size-5 is-italic has-text-link-dark is-family-monospace">
+                  {/* <div class="subtitle is-link is-size-5 is-italic has-text-link-dark is-family-monospace">
                     React with Bulma
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
